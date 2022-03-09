@@ -1,0 +1,9 @@
+/* pages/history/history.wxss */
+/* 盒子水平垂直居中 */
+  .box{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }

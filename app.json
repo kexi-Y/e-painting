@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/slash/slash",
+        "pages/index/index",
+        "pages/history/history",
+        "pages/my/my",
+        "pages/qianyi",
+        "pages/qianyi/qianyi",
+        "pages/donghua/donghua",
+        "pages/preview-qianyi/preview-qianyi",
+        "pages/about/about"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#d95144",
+        "navigationBarTitleText": "数字国画",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页",
+                "iconPath": "images/主页（灰.png",
+                "selectedIconPath": "images/主页.png"
+            },
+            {
+                "pagePath": "pages/history/history",
+                "text": "历史",
+                "iconPath": "images/历史（灰.png",
+                "selectedIconPath": "images/历史.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "images/我的（灰.png",
+                "selectedIconPath": "images/我的.png"
+            }
+        ],
+        "color": "#333",
+        "selectedColor": "#ca5d5d",
+        "backgroundColor": "#f6f6f6",
+        "borderStyle": "white"
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "sitemapLocation": "sitemap.json"
+}

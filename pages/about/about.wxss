@@ -1,0 +1,10 @@
+/* pages/about/about.wxss */
+.box{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    width: 100%;
+    height: 100%;
+  }

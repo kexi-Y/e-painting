@@ -1,0 +1,4 @@
+<!--pages/about/about.wxml-->
+<view class="box">
+    <text style="font-size: 100rpx;">我先在这边随便写几句话，因为我也不知道这里该放些什么东西</text>
+</view>

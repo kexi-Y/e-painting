@@ -1,0 +1,5 @@
+/* pages/slash/slash.wxss */
+.container{
+    display: flex;
+  flex-direction: column;
+}

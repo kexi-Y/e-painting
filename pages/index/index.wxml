@@ -1,0 +1,86 @@
+<view class="container">
+  <swiper class="index-banner" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{4000}}" duration="{{1000}}"
+    style="width: 750rpx; height: 343rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item style="width: 690rpx; height: 315rpx; display: block; box-sizing: border-box; left: 30rpx;right:30rpx; top: 30rpx; position: absolute">
+        <image
+          style="height: 315rpx;width: 690rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"
+          src="{{item}}" mode="aspectFill" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+<view style="margin-top: 50rpx">
+  <van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  shape="round"
+  background="none"
+/>
+</view>
+
+
+  <view style="display:flex; flex-direction:row; min-height: 150px; padding: 10px; margin: 10px;">
+    <view style="background-color: #ffffff00; flex: 1;" >
+      <button bindtap="powerDrawer" data-statu="open"
+        style="position: relative; left: 2rpx; top: 15rpx; width: 300rpx; height: 300rpx; display: inline-block; box-sizing: border-box" plain="true" class="trans">
+        <image src='../../images/stylize.png' style="position: relative; left: -35rpx;"></image>
+        </button>
+    </view>
+
+    <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>
+<!--content-->
+<!--使用animation属性指定需要执行的动画-->
+<view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
+  <!--drawer content-->
+  <view class="drawer_content">
+  <view >
+  <image src='../../images/qianyi2.png' class="drawer_pic" mode="aspectFit"  ></image>
+  </view>
+    <view class="drawer_title">风格迁移</view>
+     <view  class="drawer_pic2">
+      <image src='../../images/curve.png' style="height: 250rpx;" mode="aspectFit"  ></image>
+     </view>
+     <text class="drawer_text" space="emsp">  上传照片，选择想要的风格，生成专属于你的古风照</text>
+   <text class="drawer_text2">⭐适用于人像风景等照片进行风格迁移 
+   ⭐照片尺寸不小于500kb 
+   ⭐面部高清，无阴影，背景简洁的照片效果 更好哟~</text>
+
+   <image src='../../images/select-photo.png' class="drawer_pic3" mode="aspectFit"  ></image>
+
+    <view>
+<van-uploader>
+    <button class="drawer_button"  bindtap='goToQianyi' >上传图片</button>
+ </van-uploader>
+    </view>
+  </view>
+</view>
+
+
+
+    <view style="background-color: #ffffff00; flex: 1; background-position: center; background-size: 100% 100%">
+      <button bindtap="powerDrawer2" data-statu="open"
+        style="position: relative; left: 30rpx; top: 15rpx; width: 300rpx; height: 300rpx; display: inline-block; box-sizing: border-box" plain="true" class="trans">
+        <image src='../../images/animation.png' style="position: relative; left: -35rpx;"></image>
+      </button>
+    </view>
+  </view>
+
+  
+  
+
+
+
+
+  <van-grid  column-num="3" gutter="{{ 5 }}">
+  <van-grid-item use-slot wx:for="{{ 6 }}" wx:for-item="index">
+    <image
+      mode="aspectFill"
+      style="width: 85px; height: 85px;"
+      src="../../images/pic{{ index + 1 }}.jpg"
+    />
+  </van-grid-item>
+</van-grid>
+
+
+</view>

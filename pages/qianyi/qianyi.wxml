@@ -1,0 +1,29 @@
+<!--pages/qianyi/qianyi.wxml-->
+<view style="width:100%;display:flex;flex-direction:column;align-items:center;justify-content: center;margin-top: 10px;">
+  <text style="text-align:center;font-size:40rpx">上传成功！</text>
+</view>
+
+<view >
+  <image class="trans" src='../../images/white.png' style="width: 256px; height: 181px; margin-top: 10px;margin-left: 110rpx;">
+  </image>
+  <button bindtap="mySelect" style="margin-left: 190px; margin-top: -20px; width: 96px; height: 42px; display: inline-block; box-sizing: border-box;background-color: #d95144;font-size: 14px;color: #ffffff;line-height: 96rpx;" plain="true" class="trans">重新选择
+  </button>
+</view>
+
+<view>
+  <image src="../../images/select-style.png" style="width:36px;height:36px;margin-left:32px;">
+  </image>
+  <view style="margin-left:68px;margin-top:-36px;">
+    <text style="font-size:17px;">风格选择</text>
+    </view>
+</view>
+
+<view style="display: flex; flex-direction: row; margin-top:6px; box-sizing: border-box;">
+  <view class="upload" style="background-color: #ffffff00; flex: 1; background-position: center; background-size: 100% 100%">
+    <image src='../../images/img1.png' style="position: center; width:120px;height:120px;"></image>
+    </view>
+</view>
+
+<view style="width:100%;display:flex;flex-direction:column;margin-top:6px;align-items:center;justify-content: center;margin-top: 10px;">
+  <button bindtap='goQianyiPreview' class="b-button" style="position: center; width: 256px; height: 48px; display: inline-block; box-sizing: border-box;background-color: #d95144;font-size: 17px;color: #ffffff;line-height: 48px;" class="trans">开始制作</button>
+</view>

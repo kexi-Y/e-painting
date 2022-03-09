@@ -1,0 +1,32 @@
+<!--pages/preview-qianyi/preview-qianyi.wxml-->
+<view>
+  <image src="../../images/qianyi2.png" style="width:48px;height:48px;margin-left:8%;margin-top:5%;" class="trans">
+  </image>
+  <view style="margin-left:26%;margin-top:-15%;">
+    <text style="font-size:22px;">风格迁移</text>
+  </view>
+</view>
+<view style="margin-left:45%;margin-top:-25%;">
+    <image src="../../images/curve.png" style="width:150px;height:150px;">
+    </image>
+</view>
+<view style="margin-top:-5%;">
+    <text style="width:150px;height:150px;margin-left:13%;font-size: 17px;">效果预览
+    </text>
+</view>
+<view style="display: flex;justify-content: center;margin-top:3%;">
+    <image src="../../images/white.png" style="width:290px;height:290px;" class="trans-tran">
+    </image>
+</view>
+
+<view style="width: 750rpx; height: 138rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+    <button style="width: 52px; height: 52px; display: inline-block; line-height: 70%; margin-left: 56%; margin-top: 3%; font-size: 12px; position: relative; " class="trans-tran">
+      <image src="../../images/download.png" style="width:36px;height:36px;margin-left:-24%">
+      </image>
+    下载</button>
+
+    <button style="width: 52px; height: 52px; display: inline-block; line-height: 70%; margin-left: 76%; font-size: 12px; margin-top: -104px; position: relative; left: 0rpx; top: -50rpx" class="trans-tran">
+      <image src="../../images/share.png" style="width:36px;height:36px;margin-left:-24%">
+      </image>
+    分享</button>
+</view>

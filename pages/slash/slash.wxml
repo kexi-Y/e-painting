@@ -1,0 +1,4 @@
+<!--pages/slash/slash.wxml-->
+<view style="display: flex;align-items: center; justify-content: center; width: 750rpx; height: 1312rpx; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+<image style=" height: 1500rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  mode="aspectFit" src="../../images/shuziguohua.png" />
+</view>

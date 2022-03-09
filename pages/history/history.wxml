@@ -1,0 +1,6 @@
+    <view class="box">
+        <van-empty description="还没有历史记录" >
+          <van-button type="primary" size="normal" round type="info" color="#d95144" bindtap="goNext">去生成</van-button>   
+        </van-empty> 
+    </view>
+

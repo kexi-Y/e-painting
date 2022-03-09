@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <view  class="whiteview_t">
+    <view class="circle" ></view>
+    <view class="line" ></view>
+    <view class="textline">
+    <text style="font-size:50rpx;margin-top: 30rpx;margin-left: 30rpx;">用户名</text>
+    <text style="margin-left: 30rpx;font-size: larger;">这是一个个性签名~</text>
+  </view>
+</view>
+<view  class="whiteview_b">
+      <view class="choice"  >
+        <image class="img1" src='../../images/Headset.png' ></image>
+        <text>客服中心</text>
+        <image class="img2" src='../../images/Caretright.png' style="width: 80rpx;height: 80rpx;margin-left: 200rpx;"></image>
+      </view>
+      <view class="choice"  >
+        <image class="img1" src='../../images/Edit.png' ></image>
+        <text>意见反馈</text>
+        <image class="img2" src='../../images/Caretright.png'></image>
+      </view>
+      <view class="choice"  >
+        <image class="img1" src='../../images/Share(1).png'></image>
+        <text>分享他人</text>
+        <image class="img2" src='../../images/Caretright.png'></image>
+      </view>
+      <view class="choice" bindtap="gotoabout" >
+        <image class="img1" src='../../images/University.png'></image>
+        <text>关于我们</text>
+        <image class="img2" src='../../images/Caretright.png'></image>
+      </view>
+  </view>
+
+
+</view>
